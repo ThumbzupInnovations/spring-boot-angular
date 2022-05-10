@@ -8,7 +8,7 @@
 
 ### Make sure you can :
 - Run Ecomm Spring application
-- Start the ecommerce front-end (yarn start)
+- Start the ecommerce front-end (In src/main/js/ecommerce folder : 1. 'yarn install', 2. 'yarn start')
 
 
 ### Relevant Articles:
