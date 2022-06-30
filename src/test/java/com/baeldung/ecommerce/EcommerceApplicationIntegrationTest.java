@@ -54,7 +54,7 @@ public class EcommerceApplicationIntegrationTest {
         Iterable<Product> products = responseEntity.getBody();
         Assertions
           .assertThat(products)
-          .hasSize(7);
+          .hasSize(12);
 
         assertThat(products, hasItem(hasProperty("name", is("TV Set"))));
         assertThat(products, hasItem(hasProperty("name", is("Game Console"))));
